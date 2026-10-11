@@ -1,0 +1,81 @@
+BasicMouseActionTool	Tools	Left Click Tool	Use computer vision to perform a left click with your keyboard.	
+BasicMouseActionTool	Tools	Right Click Tool	Use computer vision to perform a right click with your keyboard.	
+BasicMouseActionTool	Tools	Middle Click Tool	Use computer vision to perform a middle click with your keyboard.	
+BasicMouseActionTool	Tools	Double Click Tool	Use computer vision to perform a double click with your keyboard.	
+BasicMouseActionTool	Tools	Triple Click Tool	Use computer vision to perform a triple click with your keyboard.	
+BasicMouseActionTool	Tools	Mouse Move Tool	Use computer vision to move the mouse with your keyboard.	
+DragTool	Tools	Drag Tool	Use computer vision to click and drag with your keyboard.	
+TextSelectionTool	Tools	Text Selection Tool	Use computer vision to select text with your keyboard.	
+AppLauncher	Tools	App Launcher	Launch or switch into running apps.	
+FolderOpener	Tools	Folder Opener	Open folders quickly with hints.	
+SuperAltTab	Tools	Super Alt Tab	Switch between apps.	
+StickyHintsTool	Tools	Sticky Hints Tool	Save hints for quick repeat clicking.	
+ScreenSearchTool	Tools	Screen Search Tool	Find every occurrence of the specified UI elements.	
+WindowCloser	Tools	Window Closer	Close one or more windows.	
+QuickActionMenu	Tools	Quick Action Menu	Bind tools and actions to a keyboard-driven menu.	
+WindowSnappingTool	Tools	Window Snapping Tool	Snap windows to a grid layout with your keyboard.	
+WindowMoveTool	Tools	Window Move Tool	Move the foreground window with your keyboard.	
+NavigationMode	Tools	Navigation Mode	Remap your keyboard to navigate, scroll, and interact with your screen.	
+MoveMouse	Mouse Actions	Move Mouse	Moves the mouse cursor in the specified direction by a set amount.	
+MinimizeWindow	Window Actions	Minimize Window	Minimizes the active window.	
+OpenSettings	System Actions	Open Settings	Opens the Neverclick settings window.	
+SuspendNeverclick	System Actions	Suspend Neverclick	Suspends all hotkeys except this one. Press again to resume.	
+SleepNeverclick	System Actions	Sleep Neverclick	Suspends all hotkeys and releases resources. Press again to wake.	
+RestartNeverclick	System Actions	Restart Neverclick	Closes and reopens Neverclick.	
+ExitNeverclick	System Actions	Exit Neverclick	Closes Neverclick completely.	
+ToggleAlwaysOnTop	Window Actions	Toggle Always On Top	Toggles the active window between always on top and normal.	
+Scroll	Mouse Actions	Scroll	Scrolls in the specified direction by a set amount.	
+Zoom	Mouse Actions	Zoom	Zooms in or out in apps that support Ctrl+Scroll.	
+ToggleWindow	Window Actions	Toggle Window	Toggles the active window between maximized and restored.	
+InsertText	Text & Input Actions	Insert Text	Types the specified text at the current cursor position.	
+OpenApplication	System Actions	Open Application	Opens an application, or switches to it if already running.	
+RunShellCommand	System Actions	Run Shell Command	Executes a shell command with configurable action, URI, and parameters.	
+CloseWindow	Window Actions	Close Window	Closes the active window.	
+MinimizeOthers	Window Actions	Minimize Others	Minimizes all windows except the active one.	
+CycleWindows	Window Actions	Cycle Windows	Cycles through open windows, with an optional monitor filter.	
+PreviousWindow	Window Actions	Previous Window	Switches to the last used window, like a single Alt+Tab, with an optional monitor filter.	
+HighlightActiveWindow	Window Actions	Highlight Active Window	Highlights the active window.	
+HighlightMouse	Mouse Actions	Highlight Mouse	Highlights the mouse cursor position.	
+RepeatLastMouseAction	Mouse Actions	Repeat Last Mouse Action	Repeats the last mouse action performed.	
+WiggleMouse	Mouse Actions	Wiggle Mouse	Wiggles the mouse cursor.	
+ToggleAppBar	System Actions	Toggle App Bar	Toggles the Neverclick app bar.	
+GoBack	System Actions	Go Back	Navigate back in an application's history.	
+GoForward	System Actions	Go Forward	Navigate forward in an application's history.	
+VolumeUp	System Actions	Volume Up	Increases the system volume.	
+VolumeDown	System Actions	Volume Down	Decreases the system volume.	
+MuteVolume	System Actions	Mute Volume	Toggles volume mute.	
+Copy	Text & Input Actions	Copy	Copies the selected text.	
+Cut	Text & Input Actions	Cut	Cuts the selected text.	
+Paste	Text & Input Actions	Paste	Pastes from clipboard.	
+Undo	Text & Input Actions	Undo	Undoes the last action.	
+Redo	Text & Input Actions	Redo	Redoes the last undone action.	
+Save	Text & Input Actions	Save	Saves the current document.	
+Find	Text & Input Actions	Find	Opens the find dialog.	
+OpenFile	Text & Input Actions	Open File	Opens the file open dialog.	
+SelectAll	Text & Input Actions	Select All	Selects all content.	
+NewLineAbove	Text & Input Actions	New Line Above	Inserts a new line above the cursor.	
+NewLineBelow	Text & Input Actions	New Line Below	Inserts a new line below the cursor.	
+JumpWordRight	Text & Input Actions	Jump Word Right	Jumps the cursor one word to the right.	
+JumpWordLeft	Text & Input Actions	Jump Word Left	Jumps the cursor one word to the left.	
+SelectWordLeft	Text & Input Actions	Select Word Left	Selects the word to the left.	
+SelectWordRight	Text & Input Actions	Select Word Right	Selects the word to the right.	
+JumpToFirstLine	Text & Input Actions	Jump to First Line	Jumps to the first line.	
+JumpToLastLine	Text & Input Actions	Jump to Last Line	Jumps to the last line.	
+VirtualDesktop	System Actions	Virtual Desktop	Switch, create, or close virtual desktops.	
+ResizeWindow	Window Actions	Resize Window	Resizes the active window by a set amount.	
+WindowSlot	Window Actions	Window Slot	Save or activate a window from a numbered slot.	
+WindowLayoutSlot	Window Actions	Window Layout Slot	Save or activate a window layout from a numbered slot.	
+TextSlot	Text & Input Actions	Text Slot	Copy or paste text to/from a numbered slot.	
+MouseSlot	Mouse Actions	Mouse Slot	Save or activate a mouse position from a numbered slot.	
+ClickOnWindow	Mouse Actions	Click on Window	Clicks at a relative position on the active window.	
+TileWindows	Window Actions	Tile Windows	Tiles windows on the current monitor.	
+SwitchTab	Text & Input Actions	Switch Tab	Switches between tabs in the active application.	
+SearchForWindow	Window Actions	Search for Window	Finds and activates a window by name or process.	
+MoveWindow	Window Actions	Move Window	Nudge, center, or send the active window to another monitor or virtual desktop.	
+MouseButton	Mouse Actions	Mouse Button	Holds down, releases, or toggles a mouse button.	
+TeleportMouse	Mouse Actions	Teleport Mouse	Moves the mouse instantly to a set position on the active window or screen.	
+FocusWindow	Window Actions	Focus Window	Switches to the closest window in any direction.	
+ToggleVoiceRecognition	System Actions	Toggle Voice Recognition	Turns voice recognition fully on or off.	
+ActivateVoiceTool	System Actions	Activate Voice Tool	Activates the named voice tool.	
+KeyPress	Text & Input Actions	Key Press	Executes a sequence of key press events.	
+ActionSlot	System Actions	Action Slot	Save, clear, or execute an action from a numbered slot.	

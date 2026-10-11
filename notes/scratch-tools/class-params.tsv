@@ -1,0 +1,97 @@
+ActionSlot	operation:enum[Save|Clear|Execute] | slot:number | type:action
+ActivateVoiceTool	type:action
+AdjustGap	delta:number
+AppLauncher	config:{items:Pme.array()} | type:tool
+BasicMouseActionTool	config:{mouseAction:enum[LeftClick|RightClick|MiddleClick|DoubleClick|TripleClick|Move], visionStrategy:enum[Vision|Grid|Clairvoyance|FullScreenGrid|Custom], doSaveActionWhenFinished:boolean, mouseActionModifiers:TN.array(), targetTransformStrategy:enum[Center|SnapLeft|SnapRight|SnapTop|SnapBottom|RightEdge100px], numberOfTicksBetweenMouseActions:number, finalMousePosition:Dv?, keybinds:Pl} | type:tool
+ClickOnWindow	type:action | x:number | y:number
+CloseWindow	type:action
+Copy	type:action
+Cut	type:action
+CycleWindows	direction:enum[Forward|Backward] | mouseTarget:{x:number, y:number}? | scope:enum[Behind|SameMonitor|AcrossMonitors|AllWindows] | type:action
+DragSpeed	speed:enum[Fast|Medium|Slow]
+DragTool	config:{visionStrategy:enum[Vision|Grid|Clairvoyance|FullScreenGrid|Custom], mouseActionModifiers:TN.array(), mouseAction:enum[NoClick|LeftClick|RightClick|MiddleClick], dragStrategy:enum[AllToLast|EachToNext], dragSpeed:enum[Fast|Medium|Slow], keybinds:Pl, targetTransformStrategy:enum[Center|SnapLeft|SnapRight|SnapTop|SnapBottom|RightEdge100px], finalMousePosition:Dv?} | type:tool
+Error	description:string | rawInput:string | title:string | type:error
+ExitNeverclick	type:action
+FinalMousePosition	strategy:enum[Stay|ReturnToOrigin|Offset] | x:number | y:number
+Find	type:action
+FocusWindow	direction:enum[Left|Right|Above|Below|Behind] | mouseTarget:{x:number, y:number}? | type:action
+FolderOpener	config:{items:Lme.array()} | type:tool
+GoBack	type:action
+GoForward	type:action
+HighlightActiveWindow	type:action
+HighlightMouse	type:action
+InsertText	text:string | type:action
+JumpToFirstLine	type:action
+JumpToLastLine	type:action
+JumpWordLeft	type:action
+JumpWordRight	type:action
+KeyPress	events:array<{key:string, state:enum[Down|Up]}> | type:action
+LegacyVoiceCommandTool	name:string
+MetaVoiceTool	dictation:{name:string, dictateIntoActiveWindow:boolean, voiceRequests:array<x.unknown()>, voiceCommands:array<x.unknown()>} | name:string
+MinimizeOthers	type:action
+MinimizeWindow	type:action
+MouseAction	action:enum[LeftClick|RightClick|MiddleClick|DoubleClick|TripleClick|Move]
+MouseButton	allowHeldModifiers:boolean? | button:enum[Left|Right|Middle] | operation:enum[Down|Up|Toggle] | type:action
+MouseSlot	mode:enum[Screen|Window] | operation:enum[Activate|Clear] | slot:number | type:action
+MoveMouse	direction:enum[Left|Right|Up|Down] | stride:number | type:action
+MoveTargets	strideX:number | strideY:number
+MoveWindow	direction:enum[Left|Right|Up|Down]? | maximize:boolean? | position:enum[Left|Right|Top|Bottom|TopLeft|TopRight|BottomLeft|BottomRight]? | stride:number? | strideX:number | strideY:number | target:enum[Pixels|Monitor|Desktop|Edge|Center|Back] | type:action
+MoveWindowToEdge	direction:enum[Left|Right|Up|Down]
+MoveWindowToMonitor	direction:enum[Left|Right|Up|Down]
+MoveWindowToVirtualDesktop	direction:enum[Left|Right]
+MuteVolume	type:action
+NavigationMode	config:{keybinds:Cme.array(), keyRemaps:rF.array(), enableAppBar:boolean, doHighlightMonitorBorder:boolean, doChangeIcon:boolean, enableSound:boolean} | type:tool
+NewLineAbove	type:action
+NewLineBelow	type:action
+OpenApplication	config:{application:string, parameters:string, runAsAdmin:boolean, forceLaunch:boolean?} | type:action
+OpenFile	type:action
+OpenSettings	type:action
+Paste	type:action
+PathSelect	margin:number
+PreviousWindow	mouseTarget:{x:number, y:number}? | scope:enum[Any|SameMonitor|DifferentMonitor] | type:action
+QuickActionMenu	config:{items:$ve.array()} | type:tool
+Redo	type:action
+RegionSelect	margin:number
+RepeatLastMouseAction	type:action
+ResizeWindow	axis:enum[All|Horizontal|Vertical] | delta:number | scope:enum[Left|Right|Top|Bottom|Horizontal|Vertical|All] | type:action
+RestartNeverclick	type:action
+RunShellCommand	config:{shellAction:enum[Edit|Explore|Find|Open|Print|Properties|Runas], uri:string, parameters:string, directory:string} | type:action
+Save	type:action
+ScreenSearchTool	config:{references:Wve.array(), visionStrategy:enum[Vision|Grid|Clairvoyance|FullScreenGrid|Custom], finalMousePosition:Dv?, keybinds:Pl} | type:tool
+Scroll	allowHeldModifiers:boolean? | direction:enum[Up|Down|Left|Right] | mouseTarget:{x:number, y:number}? | step:number | type:action
+SearchForWindow	matchBy:enum[ProcessName|Title] | matchMode:enum[Exact|Contains|StartsWith] | query:string | type:action
+SelectAll	type:action
+SelectWordLeft	type:action
+SelectWordRight	type:action
+SetFieldOfVision	target:enum[Window|Monitor|AllMonitors]
+SetLayout	columns:number | rows:number
+ShiftFocus	direction:enum[Left|Right|Up|Down]
+SleepNeverclick	type:action
+SnapTargets	percentX:number | percentY:number
+StickyHintsTool	config:{anchor:Ume, autoClick:boolean, persistence:enum[Persistent|OnePress], keyAssignment:enum[Automatic|Manual], visionStrategy:enum[Vision|Grid|Clairvoyance|FullScreenGrid|Custom], finalMousePosition:Dv?, keybinds:Pl} | type:tool
+SuperAltTab	config:{algorithm:enum[AllWindows|AltTabWindows], desktopScope:enum[CurrentDesktop|AllDesktops], filter:enum[AllWindows|NonMinimizedWindowsOnly|MinimizedWindowsOnly], keybinds:Pl, animateSelection:boolean, spatialAssignment:boolean, pinnedKeys:string, hintPlacement:enum[bottomRight|belowIcon]} | type:tool
+SuspendNeverclick	type:action
+SwitchTab	direction:enum[Left|Right] | type:action
+TeleportMouse	mode:enum[WindowPercent|ScreenPixels] | type:action | x:number | y:number
+TextSelectionTool	config:{visionStrategy:enum[Vision|Grid|Clairvoyance|FullScreenGrid|Custom], mouseActionModifiers:TN.array(), keybinds:Pl, finalMousePosition:Dv?} | type:tool
+TextSlot	operation:enum[Copy|Paste] | slot:number | type:action
+TileWindows	scope:enum[CurrentMonitor|FrontTwo] | style:enum[Fit|Fill] | type:action
+ToggleAlwaysOnTop	type:action
+ToggleAppBar	type:action
+ToggleFieldOfVision	fovA:enum[Window|Monitor|AllMonitors] | fovB:enum[Window|Monitor|AllMonitors]
+ToggleModifiers	alt:boolean | ctrl:boolean | shift:boolean
+ToggleVoiceRecognition	type:action
+ToggleWindow	type:action
+Undo	type:action
+VirtualDesktop	operation:enum[SwitchLeft|SwitchRight|Create|Close] | type:action
+VisionMode	vision:{detectionModel:enum[Balanced|Narrow|UltraNarrow|Wide], removeHallucinations:boolean}
+VoiceCommandTool	name:string | voiceCommands:array<x.unknown()>
+VolumeDown	type:action
+VolumeUp	type:action
+WiggleMouse	mode:enum[InPlace|OnWindow] | position:{x:number, y:number}? | type:action
+WindowCloser	config:{algorithm:enum[AllWindows|AltTabWindows], desktopScope:enum[CurrentDesktop|AllDesktops], keybinds:Pl, animateSelection:boolean, spatialAssignment:boolean, pinnedKeys:string, hintPlacement:enum[bottomRight|belowIcon]} | type:tool
+WindowLayoutSlot	operation:enum[Activate|Clear] | slot:number | type:action
+WindowMoveTool	config:{keybinds:Pl} | type:tool
+WindowSlot	operation:enum[Activate|Clear] | slot:number | type:action
+WindowSnappingTool	config:{initialLayout:{rows:..., columns:...}, gap:number, keybinds:Pl} | type:tool
+Zoom	direction:enum[In|Out] | step:number | type:action
