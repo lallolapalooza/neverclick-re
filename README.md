@@ -1,4 +1,4 @@
-# Project layout — Neverclick 0.4.1 reverse engineering
+# Neverclick 0.4.1 reverse engineering
 
 - `SPEC.md` — final reimplementation specification (the deliverable; start at §0)
 - `notes/` — findings log, **`ARTIFACTS.md`** (path index + removal record), **`AUDIT.md`** (feasibility
